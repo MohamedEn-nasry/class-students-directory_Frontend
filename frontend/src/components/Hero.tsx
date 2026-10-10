@@ -18,10 +18,7 @@ export function Hero({ total, isLoadingTotal, onAdd }: Props) {
         className="pointer-events-none absolute -top-24 right-0 h-72 w-72 rounded-full bg-accent-200/40 blur-3xl dark:bg-accent-600/20"
       />
       <div className="relative mx-auto max-w-7xl px-4 pb-8 pt-10 sm:px-6 sm:pt-14 lg:px-8">
-        <p className="inline-flex items-center gap-1.5 rounded-full border border-accent-200 bg-accent-50 px-3 py-1 text-xs font-semibold text-accent-700 dark:border-accent-800 dark:bg-accent-950 dark:text-accent-200">
-          <Users className="h-3.5 w-3.5" aria-hidden="true" />
-          Open to every student · No login needed
-        </p>
+
         <h1
           id="hero-title"
           className="mt-4 max-w-2xl text-3xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl"

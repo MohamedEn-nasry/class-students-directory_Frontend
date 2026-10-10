@@ -144,9 +144,7 @@ export function AddProfileModal({ open, onClose, onSuccess, onError }: Props) {
             <h2 id="add-profile-title" className="text-xl font-extrabold tracking-tight">
               Add my profile
             </h2>
-            <p id="add-profile-desc" className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-              Visible to everyone instantly. No account needed — just add at least one link.
-            </p>
+
           </div>
           <button
             type="button"
