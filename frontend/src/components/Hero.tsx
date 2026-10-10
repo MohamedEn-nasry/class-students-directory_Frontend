@@ -1,4 +1,4 @@
-import { Plus, Users } from 'lucide-react';
+import { Plus } from 'lucide-react';
 
 interface Props {
   total: number | undefined;
